@@ -2,7 +2,8 @@ language: node_js
 before_script:
   - 
 node_js:
-  - "iojs"
+  - "node"
+  - "lts/*"
   - "8"
   - "7"
   - "6"
